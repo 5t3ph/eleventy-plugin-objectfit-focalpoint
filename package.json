@@ -1,9 +1,14 @@
 {
-  "name": "@scope/plugin-name",
+  "name": "@11tyrocks/eleventy-plugin-objectfit-focalpoint",
   "version": "1.0.0",
-  "description": "Description of plugin",
-  "homepage": "",
+  "description": "An Eleventy Nunjucks shortcode to provide the functionality of generating an image's `object-position` value in order to keep the focal point in view.",
+  "homepage": "https://github.com/5t3ph/eleventy-plugin-objectfit-focalpoint",
   "main": ".eleventy.js",
+  "files": [
+    "README.md",
+    ".eleventy.js",
+    "package.json"
+  ],
   "scripts": {
     "start": "eleventy --serve",
     "build": "eleventy",
@@ -11,23 +16,30 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/username/repo-name.git"
+    "url": "git+https://github.com/5t3ph/eleventy-plugin-objectfit-focalpoint.git"
   },
   "keywords": [
     "11ty",
     "11ty-plugin",
     "eleventy",
-    "eleventy-plugin"
+    "eleventy-plugin",
+    "object-fit",
+    "focal-point",
+    "image-focus"
   ],
   "author": {
-    "name": "username",
-    "url": "https://website.com"
+    "name": "5t3ph",
+    "url": "https://11ty.rocks"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/username/repo-name/issues"
+    "url": "https://github.com/5t3ph/eleventy-plugin-objectfit-focalpoint/issues"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.11.1"
+    "@11ty/eleventy": "^0.12.1"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "sharp": "^0.28.3"
   }
 }
